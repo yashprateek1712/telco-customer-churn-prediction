@@ -114,8 +114,7 @@ The following models were trained and evaluated:
 # Hyperparameter Tuning
 
 Hyperparameter tuning was performed using:
-- GridSearchCV
-- Cross Validation
+- RandomizedSearchCV
 
 Parameters tuned:
 - max_depth
