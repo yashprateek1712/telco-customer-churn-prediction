@@ -1,0 +1,31 @@
+[2026-06-09 19:58:08,814], 164 numexpr.utils -INFO -NumExpr defaulting to 16 threads.
+[2026-06-09 19:58:11,239], 10 root -INFO -Starting the Machine Learning Training Pipeline...
+[2026-06-09 19:58:11,239], 13 root -INFO ->>> Initiating Data Ingestion <<<
+[2026-06-09 19:58:11,239], 28 root -INFO -Entered in data ingestion process
+[2026-06-09 19:58:11,273], 32 root -INFO -Read the dataset as a DataFrame
+[2026-06-09 19:58:11,338], 38 root -INFO -Train-Test-Split Initiated
+[2026-06-09 19:58:11,414], 45 root -INFO -Ingestion of the data Completed
+[2026-06-09 19:58:11,416], 18 root -INFO ->>> Initiating Data Transformation <<<
+[2026-06-09 19:58:11,471], 145 root -INFO -Loaded train and test data
+[2026-06-09 19:58:11,482], 26 root -INFO -Starting feature engineering
+[2026-06-09 19:58:11,508], 98 root -INFO -Feature engineering done. Shape: (5634, 19)
+[2026-06-09 19:58:11,508], 26 root -INFO -Starting feature engineering
+[2026-06-09 19:58:11,520], 98 root -INFO -Feature engineering done. Shape: (1409, 19)
+[2026-06-09 19:58:11,525], 115 root -INFO -Categorical columns: ['Partner', 'Dependents', 'InternetService', 'OnlineSecurity', 'OnlineBackup', 'DeviceProtection', 'TechSupport', 'Contract', 'PaperlessBilling', 'PaymentMethod', 'tenure_group', 'charge_group']
+[2026-06-09 19:58:11,526], 116 root -INFO -Numerical columns: ['SeniorCitizen', 'TotalCharges_log', 'is_month_to_month', 'is_electronic_check', 'is_alone', 'high_risk_combo']
+[2026-06-09 19:58:11,587], 168 root -INFO -Preprocessing complete. Saving object.
+[2026-06-09 19:58:11,615], 26 root -INFO ->>> Initiating Model Training <<<
+[2026-06-09 19:58:11,615], 30 root -INFO -Splitting train and test arrays
+[2026-06-09 20:00:48,610], 87 root -INFO -Model report: {'Logistic Regression': 0.8074866310160428, 'Decision Tree': 0.7754010695187166, 'Random Forest': 0.8101604278074866, 'XGBoost': 0.8315508021390374}
+[2026-06-09 20:00:48,610], 97 root -INFO -Best model: XGBoost with F1 score: 0.8316
+[2026-06-09 20:00:48,627], 109 root -INFO -
+              precision    recall  f1-score   support
+
+         0.0       0.92      0.68      0.78      1035
+         1.0       0.48      0.83      0.61       374
+
+    accuracy                           0.72      1409
+   macro avg       0.70      0.75      0.69      1409
+weighted avg       0.80      0.72      0.73      1409
+
+[2026-06-09 20:00:48,631], 30 root -INFO -Pipeline Completed Successfully! Best Model Metric Score: 0.6098039215686275

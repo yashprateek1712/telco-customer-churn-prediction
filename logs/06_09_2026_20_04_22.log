@@ -1,0 +1,10 @@
+[2026-06-09 20:04:23,925], 97 werkzeug -WARNING - * Debugger is active!
+[2026-06-09 20:04:23,934], 97 werkzeug -INFO - * Debugger PIN: 105-980-777
+[2026-06-09 20:04:32,010], 97 werkzeug -INFO -127.0.0.1 - - [09/Jun/2026 20:04:32] "GET / HTTP/1.1" 200 -
+[2026-06-09 20:05:44,533], 97 werkzeug -INFO -127.0.0.1 - - [09/Jun/2026 20:05:44] "GET / HTTP/1.1" 200 -
+[2026-06-09 20:05:58,211], 97 werkzeug -INFO -127.0.0.1 - - [09/Jun/2026 20:05:58] "GET / HTTP/1.1" 200 -
+[2026-06-09 20:05:58,572], 97 werkzeug -INFO -127.0.0.1 - - [09/Jun/2026 20:05:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2026-06-09 20:06:41,749], 97 werkzeug -INFO -127.0.0.1 - - [09/Jun/2026 20:06:41] "POST /predict HTTP/1.1" 200 -
+[2026-06-09 20:10:14,159], 97 werkzeug -INFO -127.0.0.1 - - [09/Jun/2026 20:10:14] "POST /predict HTTP/1.1" 200 -
+[2026-06-09 20:10:23,667], 97 werkzeug -INFO -127.0.0.1 - - [09/Jun/2026 20:10:23] "[33mGET /www.linkedin.com/in/prateek-srivastav1712 HTTP/1.1[0m" 404 -
+[2026-06-09 20:11:21,958], 97 werkzeug -INFO -127.0.0.1 - - [09/Jun/2026 20:11:21] "POST /predict HTTP/1.1" 200 -
