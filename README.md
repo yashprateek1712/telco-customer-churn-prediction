@@ -1,7 +1,6 @@
 # Telco Customer Churn Prediction
 
 **Live Demo:** [telco-customer-churn-predictior.onrender.com](https://telco-customer-churn-predictior.onrender.com)  
-**GitHub:** [github.com/yashprateek1712/telco-customer-churn-prediction](https://github.com/yashprateek1712/telco-customer-churn-prediction)
 
 ---
 
